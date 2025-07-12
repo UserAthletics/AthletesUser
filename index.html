@@ -550,18 +550,20 @@
 
         // Category translations
         const categoryNames = {
-            '100m': '100米',
-            '200m': '200米', 
+            'sprint': '短跑',
             '400m': '400米',
             '800m': '800米',
-            '1500m': '1500米',
-            '110mh': '110米跨欄',
-            '400mh': '400米跨欄',
-            'high_jump': '跳高',
-            'long_jump': '跳遠',
-            'shot_put': '鉛球',
+            'shorthurdles': '短欄',
+            'hurdles400m': '400米欄',
+            'longjump': '跳遠',
+            'triplejump': '三級跳遠',
+            'highjump': '跳高',
+            'polevault': '撐竿跳高',
+            'shotput': '鉛球',
+            'discus': '鐵餅',
             'javelin': '標槍',
-            'decathlon': '十項全能'
+            'decathlon': '十項全能',
+            'heptathlon': '七項全能'
         };
 
         // Dark mode detection
@@ -1752,32 +1754,19 @@
 
         // Excel Import Functions
         const categoryKeyMapping = {
-            '100米': '100m',
-            '100m': '100m',
-            '200米': '200m', 
-            '200m': '200m',
-            '400米': '400m',
-            '400m': '400m',
-            '800米': '800m',
-            '800m': '800m',
-            '1500米': '1500m',
-            '1500m': '1500m',
-            '110米跨欄': '110mh',
-            '110mh': '110mh',
-            '110跨欄': '110mh',
-            '400米跨欄': '400mh',
-            '400mh': '400mh', 
-            '400跨欄': '400mh',
-            '跳高': 'high_jump',
-            'high_jump': 'high_jump',
-            '跳遠': 'long_jump',
-            'long_jump': 'long_jump',
-            '鉛球': 'shot_put',
-            'shot_put': 'shot_put',
-            '標槍': 'javelin',
-            'javelin': 'javelin',
-            '十項全能': 'decathlon',
-            'decathlon': 'decathlon'
+            '400m': '400米',
+            '800m': '800米',
+            'shorthurdles': '短欄',
+            'hurdles400m': '400米欄',
+            'longjump': '跳遠',
+            'triplejump': '三級跳遠',
+            'highjump': '跳高',
+            'polevault': '撐竿跳高',
+            'shotput': '鉛球',
+            'discus': '鐵餅',
+            'javelin': '標槍',
+            'decathlon': '十項全能',
+            'heptathlon': '七項全能'
         };
 
         const phaseKeyMapping = {
